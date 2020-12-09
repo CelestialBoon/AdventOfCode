@@ -5,8 +5,8 @@
      tbl#))
 
 (fn readParse []
-  (icollect [l (io.lines "inputs/i08.txt")]
-    (let [(instr num) (l:match "(%w+) ([+%-%d]+)")]
+  (icollect [l (io.lines "inputs/i08")]
+    (let [(instr num) (l:match "(%w+) ([-+%d]+)")]
       {: instr :num (tonumber num)})))
 
 (fn exec [instructions nline acc]

@@ -5,7 +5,7 @@
 
 (fn parseInput []
   (let [bagContents {}]
-    (each [line (io.lines "inputs/i07.txt")]
+    (each [line (io.lines "inputs/i07")]
       (when line 
         (let [(firstPart outColor) (line:match "^((.*) bags contain )")
               inBags {}]

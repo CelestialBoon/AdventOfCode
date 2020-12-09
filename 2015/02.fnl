@@ -1,6 +1,6 @@
 (fn parseInputs []
   (let [dims []]
-    (each [s (io.lines "inputs/i02.txt")]
+    (each [s (io.lines "inputs/i02")]
       (let [(a b c) (s:match "(%d+)x(%d+)x(%d+)")]
         (table.insert dims [(tonumber a) (tonumber b) (tonumber c)])
       )

@@ -1,5 +1,5 @@
 (fn readInput [] 
-  (with-open [file (assert (io.open "inputs/i03.txt"))]
+  (with-open [file (assert (io.open "inputs/i03"))]
     (file:read :*a)))
 
 (fn tbllen [tbl]

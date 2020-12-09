@@ -5,7 +5,7 @@
      tbl#))
 
 (fn read-file []
-  (with-open [file (assert (io.open "inputs/i04.txt"))]
+  (with-open [file (assert (io.open "inputs/i04"))]
     (file:read :*a)))
 
 (fn parse [input]

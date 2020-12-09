@@ -14,7 +14,7 @@
 )
 
 (fn open-parse []
-  (icollect [line (io.lines "inputs/i05.txt")]
+  (icollect [line (io.lines "inputs/i05")]
     (let [binl (string.gsub (line:gsub "[FL]" "0") "[BR]" "1")
           id (tonumber binl 2)]
     id

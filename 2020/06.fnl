@@ -7,7 +7,7 @@
      tbl#))
 
 (fn read-file []
-  (with-open [file (assert (io.open "inputs/i06.txt"))]
+  (with-open [file (assert (io.open "inputs/i06"))]
     (file:read :*a)))
 
 (fn strtochars [str] 

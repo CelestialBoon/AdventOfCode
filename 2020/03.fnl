@@ -30,7 +30,7 @@
   (local (len tree) (values 31 "#"))
   (var (p1 p2 p3 p4 p5) (values 1 1 1 1 1))
   (var (c1 c2 c3 c4 c5) (values 0 0 0 0 0))
-  (each [i line (ilines "inputs/i03.txt")]
+  (each [i line (ilines "inputs/i03")]
     (local chars (strtochars line))
     (walk p1 c1 1)
     (walk p2 c2 3)

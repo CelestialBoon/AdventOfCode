@@ -42,7 +42,7 @@
 
 (fn solution [solver]
   (var count 0)
-  (each [entry (string.gmatch (read-input "inputs/i02.txt") "[^\n]+")]
+  (each [entry (string.gmatch (read-input "inputs/i02") "[^\n]+")]
     (when (solver (decodeline entry))
       (set count (+ count 1))
     )

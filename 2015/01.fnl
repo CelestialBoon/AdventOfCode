@@ -1,5 +1,5 @@
 (fn readInput [] 
-  (with-open [file (assert (io.open "inputs/i01.txt"))]
+  (with-open [file (assert (io.open "inputs/i01"))]
     (file:read :*a)))
 
 (fn iIter [theIter]
