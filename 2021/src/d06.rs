@@ -10,7 +10,6 @@ fn main() {
     }
 
     for _d in 0..days {
-        // println!("day {}", d);
         let zeros = vdays[0];
         vdays[0]=vdays[1];
         vdays[1]=vdays[2];

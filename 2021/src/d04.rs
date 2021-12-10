@@ -1,8 +1,6 @@
 use std::fs::File;
 use std::io::{prelude::*, BufReader};
 use std::collections::HashMap;
-// use std::collections::VecDeque;
-// use regex::Regex;
 
 //each number has reference to what boards
 //and each board has 25 numbers with yes/no (dict?), 5 rows and 5 columns (10 arrays of numbers will do)

@@ -1,7 +1,5 @@
 use std::fs::File;
 use std::io::{prelude::*, BufReader};
-// use std::collections::HashMap;
-// use std::collections::VecDeque;
 use regex::Regex;
 
 fn main() {

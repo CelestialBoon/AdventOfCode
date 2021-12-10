@@ -1,7 +1,6 @@
 use std::fs::File;
 use std::io::{prelude::*, BufReader};
 use std::collections::VecDeque;
-// use regex::Regex;
 
 fn main() {
     let reader = BufReader::new(File::open("inputs/i03.txt").unwrap());
@@ -31,7 +30,6 @@ fn main() {
     //decoding binary
     fn to_number(vec : &Vec<char>) -> i32 {
         let st = vec.iter().collect::<String>();
-        // println!("{}", st);
         i32::from_str_radix(&st, 2).unwrap()
     }
     
@@ -55,7 +53,6 @@ fn main() {
         let gamma = to_number(&vgamma.into_iter().collect());
         let epsilon = to_number(&vepsilon.into_iter().collect());
         
-        // println!("{} - {}", );
         println!("gamma*epsilon = {}", gamma*epsilon);
     }
     //O2 CO2
