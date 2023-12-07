@@ -4,8 +4,7 @@ let solutionsList = [Day01.solution; Day02.solution; Day03.solution; Day04.solut
 
 [<EntryPoint>]
 let main argv =
-    //let day = argv.[0]
-    let day = "05"
+    let day = argv.[0]
     
     let run day = 
         let daySolution = solutionsList.[(int day) - 1]
